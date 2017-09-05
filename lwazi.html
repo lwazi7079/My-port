@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif 
+                      text-align: center;
+}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer text-align:center;}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s text-align: center;}
+body {
+
+  text-align: center;
+  
+}
+h1 {
+  text-align: center;
+}
+img {
+
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 35px;
+  }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Gmails*/
+.fa-gmails {
+    background: #3B5998;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+/* Linkedin */
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+    border-radius: 35px;
+  }
+  /* Instagram*/
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+/* Linkedin */
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+    border-radius: 35px;
+  }
+  /* Google plus */
+.fa-google-plus {
+    background: #55ACEE;
+    color: white;
+    border-radius: 35px;
+  }
+</style>
+<body class="w3-light-grey">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<img src="/home/quirky/Pictures/IMG-20170623-WA0001.jpg">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">PORTFOLIO</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+  <h1>Lwazi Cokile</h1>
+  <img src="">
+  
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+  
+  
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>About Me</b></h4>
+    
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <!--<h4>My Name</h4>-->
+      <p>I'm Lwazi Cokile a 23 year old Web Developer,Front-end designer and Programmer from Langa,Cape Town.<br>
+   I am a innovative person that loves to create aesthic objects and very passionate about design and I 
+   have worked on HTML and CSS.</p> 
+
+   <h2>Hobbies</h2>
+
+ <p>I love soccer,cricket and enterterting people wheather its parties,youth events,pubs
+    or corparate events.</p>
+
+
+ <h3>Expirence</h3>
+
+ <p>I have expirence in Events Management in ticket sales,Co-ordinate and Organising events.<br>
+    Although I might be in the Tech space its been a great learning journey and would love to
+    explore more in this space.</p>
+ 
+ <p>I have created my own website called Bantu Legacy Wear which is a clothing brand.<br> 
+    that very unique in sense that the youth relate to the design of our clothing made by THE YOUTH,FOR THE YOUTH.</p>
+
+ <p>I had a previllage to team up with great creative personalities,problem solves and I as designer
+    in the team(Cyber Ninjas) had a great expirence having to built an App for TFG and would venture   
+    on  creating my own App as I have through the expirence of creating an App.</p>
+
+      </p>
+      <p>Email: lwazicokile9@gmail.com</p>
+      <p>Cell: 0786451934</p>
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Languages</h4>
+      <p class="w3-wide">HTML</p>
+      
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:60%">50%</div>
+      </div>
+      
+      <p class="w3-wide"> CSS</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:50%">50%</div>
+      </div>
+      <p class="w3-wide">Javascript</p
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:60%">20%</div>
+      </div>
+      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black">Download Resume</button></p>
+      <hr class="w3-opacity">
+
+      <h4 class="w3-padding-16">Other skill that I have</h4>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center">
+            <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+            <li class="w3-padding-16">Microsoft Word</li>
+            <li class="w3-padding-16">Microsoft Power Point</li>
+            <li class="w3-padding-16">Coral Drawing</li>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+            </li>
+          </ul>
+        </div>
+        
+        <div class="w3-half">
+          <ul class="w3-ul w3-white w3-center">
+            <li class="w3-black w3-xlarge w3-padding-32">Capabilities</li>
+            <li class="w3-padding-16">Ticket Salesman</li>
+            <li class="w3-padding-16">Freelance Designer</li>
+            <li class="w3-padding-16">Music teacher</li
+              
+            </li>
+            <li class="w3-light-grey w3-padding-24"
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Contact Me</b></h4>
+      <p>Do you want to be entertained? call me on 078 645 1934 or Email me at lwazicokile9@gmail.com</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+        
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-grey">  
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>INFO</h3>
+        <p>This is the entainment space raw or refresh is the lifestyle.</p>      
+      </div>
+    
+      <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBgsJL8yyjg7eQamWndxjDZ_K4H0aReZhfk7wDyxqi0-t0iGjB" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">My World</span><br>
+            <span>Lets party people</span>
+          </li>
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="https://scontent.fcpt1-1.fna.fbcdn.net/v/t1.0-9/945654_250172181789668_2025761586_n.jpg?oh=0c757ec5f7756b0bb00eb9747754a5ee&oe=59D67A1E" class="w3-left w3-margin-right" style="width:40px">
+            <span class="w3-large">My LifeStyle of happiness</span><br>
+            <span>This is the day and night life of the streets</span>
+          </li> 
+        </ul>
+      </div>
+
+      
+  </footer>
+  
+
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+<p>Find me on social media.</p>
+  
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</div>
+ <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+  <a class="active" href="https://www.facebook.com/lwazi.cokile.7"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/feed/?trk="><i class="fa fa-linkedin"></i></a>
+  
+  <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-google-plus"></i></a>
+  <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+</div> 
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
